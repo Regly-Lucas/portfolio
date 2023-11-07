@@ -1,0 +1,37 @@
+.subtitulo-span {
+    max-width: 1100px;
+    width: 100%;
+    margin: 70px auto 0;
+    color: #48575C;
+    align-items: end;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+.subtitulo-span h3 {
+    font-size: 35px;
+}
+
+.subtitulo-span span {
+    margin-bottom: 10px;
+}
+
+.section-portfolio {
+    flex-direction: column;
+}
+
+.cards-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+@media (max-width:600px) {
+    .section-portfolio {
+        padding: 100px 0;
+    }
+}
